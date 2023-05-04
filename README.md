@@ -23,6 +23,11 @@ Le dossier `modules` contient tous les modules utilisés pour créer l'infrastru
 - `big_query` : Module permettant de créer un dataset et une table dans Big Query
 - `stack_driver` : Module permettant de créer un dashboard pour afficher les métriques de l'infrastructure
 
+### Dossier src
+
+Le dossier `src` contient le code source de la cloud function.
+Il faut compresser le dossier `src` en `function-source.zip` et placer le fichier à la racine.
+
 ## Prérequis
 
 - Installer Terraform (https://learn.hashicorp.com/tutorials/terraform/install-cli)
